@@ -1,6 +1,6 @@
 # Introduction to Dark Crystal 
 
-Dark Crystal is a system of cryptographic key management which emphasises trust between peers rather than individual responsibility. 
+Dark Crystal is a system of cryptographic key management which emphasises trust between peers rather than individual responsibility.  It is aimed at developers who want to encourage good practices for handling cryptographic keys. 
 
 ## Why?
 
@@ -25,11 +25,15 @@ At the same time, peer-to-peer systems have become more advanced, overcoming man
 
 > The server is providing only a place to meet, and a data store which is always available, but not access to a special resource which people do not have themselves.
 
-These systems are fundamentally empowering to those that use them, their very nature makes it difficult for a minority to control or exploit them.  Provided the software they run is open source and community developed, they offer a much more democratic way of working.
+Peer-to-peer systems are fundamentally empowering to those that use them, their very nature makes it difficult for a minority to control or exploit them.  Provided the software they run is open source and community developed, they offer a much more democratic way of working.
 
 But having ultimate control over your own data comes at a cost.  Without a trusted party providing authentication, peers have to manage cryptographic keys.  Loosing them not only means you lock yourself out, but someone who finds them could impersonate you.
 
 Dark Crystal is a set of protocols and recommendations which aim to address the key custody problem, encourage good practice when designing peer-to-peer applications, and make it safer and easier for non-technical peoples to use such systems.
+
+## What transport protocol does it use?
+
+It aims to be agnostic to any particular language, technology, or transport protocol. We try to offer something useful to a broad range of software projects.
 
 ## What are the protocols:
 
