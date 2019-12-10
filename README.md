@@ -23,7 +23,7 @@ At the same time, peer-to-peer systems have become more advanced, overcoming man
 - A peer can hold other peer's data without being able to access it themselves. 
 - A peer can verify the integrity of a given data set, and verify whether it was written by a particular author, and that the set is complete until the most recent item given.
 
-> The server is providing only a place to meet, and a data store which is always available, but not access to a special resource which people do have themselves.
+> The server is providing only a place to meet, and a data store which is always available, but not access to a special resource which people do not have themselves.
 
 These systems are fundamentally empowering to those that use them, their very nature makes it difficult for a minority to control or exploit them.  Provided the software they run is open source and community developed, they offer a much more democratic way of working.
 
